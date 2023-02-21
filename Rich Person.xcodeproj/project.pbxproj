@@ -13,6 +13,8 @@
 		F085C8CB29A5055600F8F8C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F085C8C929A5055600F8F8C2 /* Main.storyboard */; };
 		F085C8CD29A5055700F8F8C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F085C8CC29A5055700F8F8C2 /* Assets.xcassets */; };
 		F085C8D029A5055700F8F8C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F085C8CE29A5055700F8F8C2 /* LaunchScreen.storyboard */; };
+		F085C8D829A505CA00F8F8C2 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085C8D729A505CA00F8F8C2 /* DetailsViewController.swift */; };
+		F085C8DA29A50B4F00F8F8C2 /* RichModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F085C8D929A50B4F00F8F8C2 /* RichModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		F085C8CC29A5055700F8F8C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F085C8CF29A5055700F8F8C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F085C8D129A5055700F8F8C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F085C8D729A505CA00F8F8C2 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		F085C8D929A50B4F00F8F8C2 /* RichModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RichModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				F085C8C329A5055600F8F8C2 /* AppDelegate.swift */,
 				F085C8C529A5055600F8F8C2 /* SceneDelegate.swift */,
 				F085C8C729A5055600F8F8C2 /* ViewController.swift */,
+				F085C8D729A505CA00F8F8C2 /* DetailsViewController.swift */,
 				F085C8C929A5055600F8F8C2 /* Main.storyboard */,
 				F085C8CC29A5055700F8F8C2 /* Assets.xcassets */,
 				F085C8CE29A5055700F8F8C2 /* LaunchScreen.storyboard */,
 				F085C8D129A5055700F8F8C2 /* Info.plist */,
+				F085C8D929A50B4F00F8F8C2 /* RichModel.swift */,
 			);
 			path = "Rich Person";
 			sourceTree = "<group>";
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F085C8C829A5055600F8F8C2 /* ViewController.swift in Sources */,
+				F085C8DA29A50B4F00F8F8C2 /* RichModel.swift in Sources */,
 				F085C8C429A5055600F8F8C2 /* AppDelegate.swift in Sources */,
 				F085C8C629A5055600F8F8C2 /* SceneDelegate.swift in Sources */,
+				F085C8D829A505CA00F8F8C2 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
